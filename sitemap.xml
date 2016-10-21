@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/10/20/hello-world/</loc>
+    <loc>http://raidyue.github.io/2016/10/21/new-tag/</loc>
     
-    <lastmod>2016-10-20T14:07:39.000Z</lastmod>
+    <lastmod>2016-10-21T09:15:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://raidyue.github.io/tags/index.html</loc>
+    
+    <lastmod>2016-10-21T08:30:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://raidyue.github.io/categories/index.html</loc>
+    
+    <lastmod>2016-10-21T08:27:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://raidyue.github.io/2016/10/20/hello-world/</loc>
+    
+    <lastmod>2016-10-21T06:16:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://raidyue.github.io/about/index.html</loc>
+    
+    <lastmod>2016-10-21T05:14:47.000Z</lastmod>
     
   </url>
   
