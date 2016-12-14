@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>咚咚咚&#39;s Blog</title>
-  <subtitle>我们沉默不语，就是互相赠送片刻生命</subtitle>
+  <subtitle>我们沉默不语，就是互赠片刻生命</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://raidyue.github.io/"/>
-  <updated>2016-10-21T09:15:16.000Z</updated>
+  <updated>2016-10-22T05:51:15.000Z</updated>
   <id>http://raidyue.github.io/</id>
   
   <author>
@@ -16,30 +16,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>New_tag</title>
-    <link href="http://raidyue.github.io/2016/10/21/new-tag/"/>
-    <id>http://raidyue.github.io/2016/10/21/new-tag/</id>
-    <published>2016-10-21T07:45:34.000Z</published>
-    <updated>2016-10-21T09:15:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="asda"><a href="#asda" class="headerlink" title="asda"></a>asda</h1><p>asdasd<br>asdasd</p>
-]]></content>
+    <title>TestBlog</title>
+    <link href="http://raidyue.github.io/2016/10/22/TestBlog/"/>
+    <id>http://raidyue.github.io/2016/10/22/TestBlog/</id>
+    <published>2016-10-22T05:50:18.000Z</published>
+    <updated>2016-10-22T05:51:15.000Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;asda&quot;&gt;&lt;a href=&quot;#asda&quot; class=&quot;headerlink&quot; title=&quot;asda&quot;&gt;&lt;/a&gt;asda&lt;/h1&gt;&lt;p&gt;asdasd&lt;br&gt;asdasd&lt;/p&gt;
-
-    
     </summary>
     
-      <category term="asd" scheme="http://raidyue.github.io/categories/asd/"/>
+      <category term="C1" scheme="http://raidyue.github.io/categories/C1/"/>
     
     
-      <category term="1" scheme="http://raidyue.github.io/tags/1/"/>
+      <category term="T1" scheme="http://raidyue.github.io/tags/T1/"/>
     
-      <category term="2" scheme="http://raidyue.github.io/tags/2/"/>
-    
-      <category term="3" scheme="http://raidyue.github.io/tags/3/"/>
+      <category term="T2" scheme="http://raidyue.github.io/tags/T2/"/>
     
   </entry>
   
@@ -48,7 +40,7 @@
     <link href="http://raidyue.github.io/2016/10/20/hello-world/"/>
     <id>http://raidyue.github.io/2016/10/20/hello-world/</id>
     <published>2016-10-20T13:27:49.000Z</published>
-    <updated>2016-10-21T06:16:38.000Z</updated>
+    <updated>2016-10-22T05:58:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -67,6 +59,8 @@
     
     </summary>
     
+    
+      <category term="T1" scheme="http://raidyue.github.io/tags/T1/"/>
     
   </entry>
   
