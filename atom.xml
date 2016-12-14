@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://raidyue.github.io/"/>
-  <updated>2016-10-22T05:51:15.000Z</updated>
+  <updated>2016-12-14T09:12:32.000Z</updated>
   <id>http://raidyue.github.io/</id>
   
   <author>
@@ -16,31 +16,78 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>TestBlog</title>
-    <link href="http://raidyue.github.io/2016/10/22/TestBlog/"/>
-    <id>http://raidyue.github.io/2016/10/22/TestBlog/</id>
-    <published>2016-10-22T05:50:18.000Z</published>
-    <updated>2016-10-22T05:51:15.000Z</updated>
+    <title>Vim使用</title>
+    <link href="http://raidyue.github.io/2016/12/14/vim%E4%BD%BF%E7%94%A8/"/>
+    <id>http://raidyue.github.io/2016/12/14/vim使用/</id>
+    <published>2016-12-14T01:33:34.000Z</published>
+    <updated>2016-12-14T09:12:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="模式"><a href="#模式" class="headerlink" title="模式"></a>模式</h1><ul>
+<li>ESC\Ctrl+c：退出编辑模式</li>
+<li>ZZ\wq：命令模式下保存退出</li>
+</ul>
+<h1 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h1><ul>
+<li>i：进入编辑模式</li>
+<li>I：转到行首非空字符开始编辑</li>
+<li>s：删除当前字符进入编辑模式</li>
+<li>a：从当前字符后开始编辑</li>
+<li>A：从当前行末非空字符开始编辑</li>
+</ul>
+<h1 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h1><ul>
+<li>H J K L：左下上右</li>
+<li>0： 数字零，到行头</li>
+<li>\^：到本行第一个不是blank字符的位置（所谓blank字符就是空格，tab，换行，回车等）</li>
+<li>$：到本行行尾</li>
+<li>g_：到本行最后一个不是blank字符的位置。</li>
+<li>w\W：行跳转到下一个词开头\快速跳转</li>
+<li>b\B：行词回跳\快速回跳</li>
+<li>e：移动到下个词结尾</li>
+<li>ge：移动到上个词结尾</li>
+<li>td\Td：跳转到下一个d的上一个字符\上一个d的下一个字符</li>
+<li>ntd\nTd：跳转到第n个d的上一个字符\上n个d的下一个字符</li>
+<li>fa\Fa 跳转到下一个a\回到上一个a , nfa\nFa和上一条类似</li>
+<li>* : 跳转到其他相同词</li>
+</ul>
+<h1 id="复制粘贴删除"><a href="#复制粘贴删除" class="headerlink" title="复制粘贴删除"></a>复制粘贴删除</h1><ul>
+<li>ndd：删除n行</li>
+<li>nyy：复制n行</li>
+<li>yap：复制一段内容</li>
+<li>gp：粘贴一段内容</li>
+<li>gP：在上一行粘贴内容</li>
+<li>p：粘贴到下一行</li>
+<li>P：粘贴到上一行</li>
+</ul>
+<h2 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h2><p>“”：默认使用的无名寄存器<br>dd：默认将内容剪切到无名寄存器<br>“_：黑洞寄存器，丢弃存入的内容<br>“_dd：删除<br>“+p：粘贴系统剪切板内容，”+，系统剪切板寄存器<br>“0p：粘贴复制寄存器内容</p>
+<h1 id="组合命令-删除复制修改"><a href="#组合命令-删除复制修改" class="headerlink" title="组合命令 删除复制修改"></a>组合命令 删除复制修改</h1><ul>
+<li>dw | yw | cw：按词删除\复制\修改</li>
+<li>dfd | yfd | cfd：删到\复制\修改 下个d，包括d</li>
+<li>dtd | ytd | ctd：删到\复制\修改下个d之前的字符</li>
+<li>di” | yi” | ci”：删除\复制\修改””之间的内容</li>
+<li>da” | ya” | ca”： 删除\复制\修改包括引号和引号之间的内容</li>
+</ul>
+]]></content>
     
     <summary type="html">
     
+      &lt;h1 id=&quot;模式&quot;&gt;&lt;a href=&quot;#模式&quot; class=&quot;headerlink&quot; title=&quot;模式&quot;&gt;&lt;/a&gt;模式&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;ESC\Ctrl+c：退出编辑模式&lt;/li&gt;
+&lt;li&gt;ZZ\wq：命令模式下保存退出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;编辑
+    
     </summary>
     
-      <category term="C1" scheme="http://raidyue.github.io/categories/C1/"/>
     
-    
-      <category term="T1" scheme="http://raidyue.github.io/tags/T1/"/>
-    
-      <category term="T2" scheme="http://raidyue.github.io/tags/T2/"/>
+      <category term="vim" scheme="http://raidyue.github.io/tags/vim/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>Hexo</title>
     <link href="http://raidyue.github.io/2016/10/20/hello-world/"/>
     <id>http://raidyue.github.io/2016/10/20/hello-world/</id>
     <published>2016-10-20T13:27:49.000Z</published>
-    <updated>2016-10-22T05:58:26.000Z</updated>
+    <updated>2016-12-14T06:20:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -60,7 +107,7 @@
     </summary>
     
     
-      <category term="T1" scheme="http://raidyue.github.io/tags/T1/"/>
+      <category term="hexo" scheme="http://raidyue.github.io/tags/hexo/"/>
     
   </entry>
   

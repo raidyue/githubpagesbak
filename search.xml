@@ -4,14 +4,14 @@
   
     
     <entry>
-      <title><![CDATA[TestBlog]]></title>
-      <url>http://raidyue.github.io/2016/10/22/TestBlog/</url>
-      <content type="text"></content>
+      <title><![CDATA[Vim使用]]></title>
+      <url>http://raidyue.github.io/2016/12/14/vim%E4%BD%BF%E7%94%A8/</url>
+      <content type="text"><![CDATA[模式 ESC\Ctrl+c：退出编辑模式 ZZ\wq：命令模式下保存退出 编辑 i：进入编辑模式 I：转到行首非空字符开始编辑 s：删除当前字符进入编辑模式 a：从当前字符后开始编辑 A：从当前行末非空字符开始编辑 移动 H J K L：左下上右 0： 数字零，到行头 \^：到本行第一个不是blank字符的位置（所谓blank字符就是空格，tab，换行，回车等） $：到本行行尾 g_：到本行最后一个不是blank字符的位置。 w\W：行跳转到下一个词开头\快速跳转 b\B：行词回跳\快速回跳 e：移动到下个词结尾 ge：移动到上个词结尾 td\Td：跳转到下一个d的上一个字符\上一个d的下一个字符 ntd\nTd：跳转到第n个d的上一个字符\上n个d的下一个字符 fa\Fa 跳转到下一个a\回到上一个a , nfa\nFa和上一条类似 * : 跳转到其他相同词 复制粘贴删除 ndd：删除n行 nyy：复制n行 yap：复制一段内容 gp：粘贴一段内容 gP：在上一行粘贴内容 p：粘贴到下一行 P：粘贴到上一行 寄存器“”：默认使用的无名寄存器dd：默认将内容剪切到无名寄存器“_：黑洞寄存器，丢弃存入的内容“_dd：删除“+p：粘贴系统剪切板内容，”+，系统剪切板寄存器“0p：粘贴复制寄存器内容 组合命令 删除复制修改 dw | yw | cw：按词删除\复制\修改 dfd | yfd | cfd：删到\复制\修改 下个d，包括d dtd | ytd | ctd：删到\复制\修改下个d之前的字符 di” | yi” | ci”：删除\复制\修改””之间的内容 da” | ya” | ca”： 删除\复制\修改包括引号和引号之间的内容]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
+      <title><![CDATA[Hexo]]></title>
       <url>http://raidyue.github.io/2016/10/20/hello-world/</url>
       <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
     </entry>
